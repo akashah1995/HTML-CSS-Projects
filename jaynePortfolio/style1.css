@@ -1,0 +1,18 @@
+/*CSS reset settings here*/
+/*Notes: padding increases the size of the block itself*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+.background{
+width: 970px;
+background-color:purple;
+margin: 0px auto;
+}
+
+.imageframe{
+width:200px;
+height:200px;
+background-color: gray;
+}

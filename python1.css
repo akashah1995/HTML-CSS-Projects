@@ -1,0 +1,310 @@
+/*CSS reset settings here*/
+/*Notes: padding increases the size of the block itself*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+wrapper{
+width: 970px;
+}
+
+.upperblock{
+width: 970px;
+height: 455px;
+background-color:#254d74;
+display: inline-block;
+vertical-align: top;
+}
+
+.toppic{
+margin-left:34px;
+margin-top:25px;
+margin-right: 300px;
+}
+
+.tabbar{
+width: 824px;
+height: 48px;
+margin-top: 5px;
+margin-left: 90px;
+background-color:#518cc8;
+display: inline-block;
+vertical-align: top;
+padding-left:8px;
+color: white;
+border-radius:5px;
+border-bottom-style:solid;
+border-right-style:solid;
+border-width: 2px;
+border-color:black;
+
+}
+
+h2{
+line-height: 46px;
+display:inline;
+vertical-align:top;
+margin-left: 30px;
+padding-left: 0px;
+font-family: Arial;
+font-weight: lighter;
+}
+
+.uppercontentleft{
+width: 220px;
+height: 240px;
+margin-top: 10px;
+margin-left: 80px;
+background-color:#254d74;
+display: inline-block;
+vertical-align:top;
+font-family:sans-serif;
+font-weight: lighter;
+}
+
+.upperbullets li{
+color:yellow;
+margin:7px 0;
+}
+
+.upperbullets li a{
+color:white;
+}
+
+.uppercontentright{
+width: 590px;
+height: 280px;
+margin-top: 10px;
+margin-left: 0px;
+background-color:#254d74;
+display: inline-block;
+vertical-align: top;
+}
+
+.pcentered{
+color: white;
+text-align: center;
+font-family:sans-serif;
+font-size:13px;
+}
+
+.yellow{
+font-size: 18px;
+color:yellow;
+font-style:italic;
+margin-top:9px;
+text-align:center;
+font-family:sans-serif;
+font-weight: lighter;
+}
+
+.white{
+margin-top:15px;
+color:white;
+text-align:center;
+font-family:sans-serif;
+font-weight:lighter;
+
+}
+
+.upperbullets{
+margin-top: 15px;
+list-style: inside;
+text-align: center;
+
+}
+
+.middleblock{
+width: 970px;
+height: 210px;
+background-color: white;
+display: inline-block;
+vertical-align: top;
+}
+
+.leftmiddle{
+margin-top: 15px;
+margin-left: 100px;
+width:400px;
+height:190px;
+background-color:white;
+color:black;
+display:inline-block;
+vertical-align:top;
+text-align:center;
+border-top-style:solid;
+margin-top: 10px;
+border-color:#0066cc;
+
+}
+
+.rightmiddle{
+margin-top: 15px;
+margin-left: 20px;
+width:400px;
+height:190px;
+background-color:white;
+color:black;
+display:inline-block;
+vertical-align:top;
+text-align:center;
+border-top-style:solid;
+margin-top: 10px;
+border-color:#0066cc;
+
+}
+
+.middleheader{
+margin-right:118px;
+text-align:center;
+font-family:sans-serif;
+font-size:18px;
+margin-bottom: 6px;
+
+}
+
+.middlecontent{
+font-size: 13px;
+width: 254px;
+text-align: center;
+vertical-align: top;
+margin-left:15px;
+
+}
+
+.newbull{
+color:black;
+margin-top: 5px;
+font-size: 13px;
+width: 200px;
+margin-left: 50px;
+}
+
+.nb{
+list-style:none;
+color:#49a6ff;
+text-decoration:none;
+}
+
+.blue{
+color:#49a6ff;
+text-decoration: none;
+}
+
+.inner{
+color:#49a6ff;
+}
+
+.bottomblock{
+width: 970px;
+height: 50px;
+padding-top: 50px;
+background-color: #254d74;
+vertical-align: top;
+}
+
+.middlebottomblock {
+    width: 620px;
+    height: 20px;
+    background-color:#254d74;
+    margin-left: 160px;
+    margin-bottom: 5px
+}
+.words {
+    display: inline;
+    color: #99ccff;
+    margin: 20px;
+    font-family: Arial;
+    font-weight: lighter;
+}
+.bottombottomblock {
+    width: 160px;
+    height: 20px;
+    background-color: #254d74;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+.copyright {
+    display: center;
+    font-size: 9px;
+    color: #99ccff;
+    font-family: Arial;
+    font-weight: lighter;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.searchbar {
+    padding: 0px;
+    background-color: #254d74;
+    vertical-align: top;   
+    width:300;
+    display: inline-block;
+}
+h4 {
+    color: white;
+    display: inline;
+    vertical-align: top;
+    margin-left: 100px;
+    font-size: 13px;
+}
+span {
+    text-decoration: underline;
+    display: inline;
+    vertical-align: top;
+    color: yellow;
+}
+.blackbar {
+    margin: 0px;
+    padding:0px;
+    background-color: #473947;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-right: 50px;
+    padding-bottom: 13px;
+}
+.whitesearchbox {
+    margin-left: 48px;
+    background-color: white;
+    height: 30px;
+    width: 155px;
+    vertical-align: center;
+    display: inline-block;
+}
+.Search {
+    padding-top: 7px;
+    margin-left: 50px;
+    color: gray;
+    font-size: 13px;
+}
+.Gobar {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    border-style:solid;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    
+}
+.Gowords {
+    color: white;
+    vertical-align: center;
+    background-color: #254d74;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+

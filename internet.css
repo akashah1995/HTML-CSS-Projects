@@ -1,0 +1,337 @@
+/*CSS reset settings here*/
+/*Notes: padding increases the size of the block itself*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+.wrapper{
+width: 765px;
+background: white; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(whitesmoke, white); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(whitesmoke, white); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(whitesmoke, white); /* For Firefox 3.6 to 15 */
+background: linear-gradient(whitesmoke, white); /* Standard syntax */
+}
+
+.internetrow{
+width: 765px;
+height: 60px;
+display: inline-block;
+vertical-align:top;
+background: white; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(whitesmoke, white); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(whitesmoke, white); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(whitesmoke, white); /* For Firefox 3.6 to 15 */
+background: linear-gradient(whitesmoke, white); /* Standard syntax */
+}
+
+
+.globe{
+position: relative;
+top: 0px;
+}
+h3{
+display: inline-block;
+vertical-align: top;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 26pt;
+font-weight: lighter;
+margin-top:15px;
+}
+.title{
+color:#0077b3;
+
+}
+.webrow{
+background-color:#0077b3;
+width: 765px;
+height: 50px;
+display: inline-block;
+vertical-align:top;
+}
+
+h4{
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 22pt;
+font-weight: lighter;
+vertical-align:top;
+line-height: 48px;
+margin-left:15px;
+
+}
+
+.leftcolumn{
+background: white; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(whitesmoke, white); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(whitesmoke, white); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(whitesmoke, white); /* For Firefox 3.6 to 15 */
+background: linear-gradient(whitesmoke, white); /* Standard syntax */
+width: 180px;
+height: 507px;
+display: inline-block;
+vertical-align:top;
+}
+
+.topleft{
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+height:145px;
+border-bottom: solid;
+border-width: 1px;
+border-color:gray;
+width:165px;
+}
+
+.one{
+margin-top: 15px;
+}
+
+.para{
+color:red;
+}
+
+.para1{
+color:#0077b3;
+}
+
+.one{
+font-size: 13px;
+font-weight: bolder;
+margin-bottom: 8px;
+}
+
+.two{
+font-size: 10px;
+font-weight: bolder;
+}
+
+h5{
+
+padding-top:5px;
+padding-bottom:5px;
+background-color: #0077b3;
+font-family: Arial, sans-serif;
+font-size: 15px;
+color:white;
+text-align:center;
+font-weight: lighter;
+margin-top: 12px;
+border-radius:4px;
+
+}
+
+h6{
+padding-top:5px;
+padding-bottom:5px;
+background-color: #ff751a;
+font-family: Arial, sans-serif;
+font-size: 15px;
+color:white;
+text-align:center;
+font-weight: lighter;
+border-radius:4px;
+margin-top: 2px;
+}
+
+.midleft{
+margin-top:16px;
+height:232px;
+width:170px;
+background-image: url('../dojoportfolio/images/ad_background.png');
+}
+
+.para2{
+padding-top:15px;
+font-size:18px;
+color:white;
+text-align:center;
+font-family: Arial, sans-serif;
+}
+
+.para3{
+margin-top:2px;
+font-size:18px;
+color:white;
+text-align:center;
+font-family: Arial, sans-serif;
+}
+
+.ninja{
+position: relative;
+top: 5px;
+left: 57px;
+}
+
+.para4{
+margin-left:20px;
+margin-top:15px;
+font-size:13px;
+text-align: center;
+padding-top:5px;
+padding-bottom:5px;
+background-color:#33ffff;
+color:white;
+border-radius:4px;
+font-family: Arial, sans-serif;
+text-align:center;
+top:34px;
+width:130px;
+}
+
+.rightcolumn{
+margin-left:15px;
+background: white; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(whitesmoke, white); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(whitesmoke, white); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(whitesmoke, white); /* For Firefox 3.6 to 15 */
+background: linear-gradient(whitesmoke, white); /* Standard syntax */
+width: 564px;
+height: 507px;
+display: inline-block;
+vertical-align:top;
+
+}
+
+.toprow{
+display:inline-block;
+height:50px;
+width:564px;
+vertical-align: top;
+border-bottom:solid;
+border-color:gray;
+border-width:1px;
+
+}
+
+.h7{
+margin-left: 5px;
+line-height:30px;
+font-family: Arial, sans-serif;
+font-size:13px;
+color:#0077b3;
+vertical-align:top;
+display: inline-block;
+}
+
+.topofright{
+width: 120px;
+display:inline-block;
+vertical-align:top;
+}
+
+.phone{
+margin-left: 346px;
+width:32px;
+height: 32px;
+display:inline-block;
+margin-top: 8px;
+margin-right: 5px;
+}
+
+.para5{
+color:black;
+font-size:9px;
+margin-bottom:1px;
+}
+.para6{
+font-family: Arial, sans-serif;
+font-weight: bolder;
+margin-bottom: 1px;
+color:#33ffff;
+
+}
+
+.para7{
+color:black;
+font-size:9px;
+}
+
+.home{
+margin-top: 4px;
+margin-bottom:20px;
+}
+
+.contenttop{
+margin-top:12px;
+font-family: Arial, sans-serif;
+font-size:11px;
+}
+
+.innerheaders{
+font-family: Arial, sans-serif;
+font-size:14px;
+color:#0077b3;
+font-weight: bolder;
+margin-top:4px;
+margin-bottom:4px;
+display:inline-block;
+vertical-align: top;
+}
+.bull1{
+margin-left:15px;
+margin-top:3px;
+}
+
+.bull1 li{
+padding-top:4px;
+}
+
+.turq{
+color: #33ffff;
+}
+
+.bold{
+font-weight:bolder;
+}
+
+.client{
+margin-left:166px;
+margin-top:10px;
+}
+
+.contentmid{
+margin-top:12px;
+font-family: Arial, sans-serif;
+font-size:11px;
+}
+
+.bull2{
+margin-left:15px;
+}
+.bottomrow{
+margin-top:10px;
+font-family: Arial, sans-serif;
+font-size:11px;
+border-top:solid;
+border-left:solid;
+border-right:solid;
+border-width:4px;
+border-color:#0077b3;
+
+}
+.html{
+margin-left:20px;
+display:inline-block;
+vertical-align: top;
+width:90px;
+height:90px;
+}
+
+.bottomcontent{
+display: inline-block;
+font-family: Arial, sans-serif;
+font-size:11px;
+
+}
+
+.end1{
+margin-top:5px;
+}
+
+.end2{
+margin-top:8px;
+}
+
+
